@@ -7,7 +7,7 @@ In this case, the data (humidity and temperature) will be collected every minute
 
 * Pre-setting for using the GPIO of Raspberry Pi: [check](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
 
-* Physical settings
+* Physical settings: GPIO4(pin 7) for data tranfering, pin 4 for 5V power supply, ,and pin 6 for grounding
 ![](images/usecase-device-DHT11-in-Pi.jpg)
 
 
@@ -18,3 +18,9 @@ In this case, the data (humidity and temperature) will be collected every minute
 
 * Script settings for dealing with incoming data: set Channel name and ENABLE it
 ![](images/usecase-script-DHT11-in-Pi.JPG)
+
+
+### TelegramBot settings
+
+* Install [Telegram app](https://telegram.org/)
+* Add the Telegram Bot of the Data Foundry, search id: DataFoundryBot
