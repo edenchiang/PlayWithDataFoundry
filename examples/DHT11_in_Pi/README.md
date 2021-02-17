@@ -24,4 +24,4 @@ In this case, the data (humidity and temperature) will be collected every minute
 
 * Install [Telegram app](https://telegram.org/)
 * Add the Telegram Bot of the Data Foundry, search id: DataFoundryBot
-* Log into the DataFoundryBot as a researcher
+* Log into the DataFoundryBot as a researcher, reference: [Login as a researcher](https://data.id.tue.nl/documentation/usecase-telegram#setup-telegram-from-researcher-view)
