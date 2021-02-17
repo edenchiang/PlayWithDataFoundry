@@ -9,4 +9,4 @@ Data Foundry is a data infrastructure for prototyping and designing with data fo
 ### PLATFORM - Raspberry Pi 3b
 
 * Get humidity and temperature periodically with DHT11 module: [example code](examples/DHT11_in_Pi/DHT11-in-Pi.py)
-*References: [Use-case: Data-enabled design II (informed step)](https://data.id.tue.nl/documentation/usecase-ded-2)*
+	*References: [Use-case: Data-enabled design II (informed step)](https://data.id.tue.nl/documentation/usecase-ded-2)*
