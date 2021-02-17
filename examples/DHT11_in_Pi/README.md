@@ -8,7 +8,7 @@ In this case, the data (humidity and temperature) will be collected every minute
 * Pre-setting for using the GPIO of Raspberry Pi: [check](https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi)
 
 * Physical settings
-![](images/usecase-device-DHT11-In-Pi.jpeg)
+![](images/usecase-device-DHT11-In-Pi.jpg)
 
 
 ### Data Foundry setting
