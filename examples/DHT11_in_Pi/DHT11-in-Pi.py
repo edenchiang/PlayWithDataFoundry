@@ -16,7 +16,9 @@ from oocsi import OOCSI
 
 
 # connect to OOCSI
-oocsi = OOCSI('WorkingEnvironment_Eden', 'oocsi.id.tue.nl')
+# replace the 'unique_handler_name' as something unique
+# OOCSI host for the Data Foundry: oocsi.id.tue.nl
+oocsi = OOCSI('unique_handler_name', 'url_or_host_or_ip_address')
 
 mins = 0
 arr = []
@@ -37,10 +39,10 @@ def sendLog(humidity, temperature):
         sendMsg = False
     
     print("sendLog:" + str(sendMsg))
-    # create and send data to the channel 'eden_dht11_test'
-    oocsi.send('eden_dht11_test',
+    # create and send data to the specific channel
+    oocsi.send('OOCSI_channel_name_for_uploading_stream',
         {
-            'device_id': 'dedfb9b2c4d1f4c30',
+            'device_id': 'refId_of_device',
             'humidity': humidity,
             'temperature': temperature,
             'sendMsg': sendMsg
@@ -66,21 +68,26 @@ def recordByMinute():
     get humidity and temperature data every minute and keep in arr[]
     """
     humidity, temperature = Adafruit_DHT.read_retry(11, 4)
+
+    # print message for checking
     print(str(datetime.datetime.now()) + "      humidity: " + str(humidity) + "       temperature: " + str(temperature))
     return [humidity, temperature]
 
+tStart = 0.0
 
 while True:
-    
-    data = recordByMinute()
-    
-    if data[0] and data[1]:
-        arr.append(data)
+    tEnd = time.time()
+    if ((tEnd - tStart) >= 60):
+        tStart = tEnd
+        data = recordByMinute()
         
-    mins += 1
+        if data[0] and data[1]:
+            arr.append(data)
+            
+        mins += 1
+        
+        if mins % 10 == 0:
+            findMeans()
+            arr = []
     
-    if mins % 10 == 0:
-        findMeans()
-        arr = []
-    
-    time.sleep(60)
+    # time.sleep(60)
