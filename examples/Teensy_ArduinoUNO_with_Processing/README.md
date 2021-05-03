@@ -16,5 +16,5 @@ In this case, the Arduino part will send (print) the sensor data to the serial p
 
 ### Remindings
 
-* Don't open the serial monitor window from the Arduino IDE, otherwise the serial port will be occupied by Arduino board. This will cause the serial port reading problem for Processing code.
+* Don't open the serial monitor window from the Arduino IDE, otherwise the serial port will be occupied. This will cause the serial port reading problem for Processing code.
 

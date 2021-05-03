@@ -1,3 +1,10 @@
+/******************************************************
+* Author:      I-Tang(Eden) Chiang 
+* Date:        Mar. 18, 2021
+* Description: Sample code for sending data, which is 
+*              fetched via the serial port and sent by
+*              Arduino devices, to the Data Foundry
+******************************************************/
 import processing.serial.*;
 
 Serial myPort;  // Create object from Serial class
