@@ -1,12 +1,12 @@
 """
-Authors:        I-Tang (Eden) Chiang
+Author:         I-Tang (Eden) Chiang <i.chiang@tue.nl>
 Date:           Feb. 16, 2021
 Description:    Implementation for the usecase of the DataFoundry --- DATA-ENABLED DESIGN II (INFORMED STEP)
                 Replace the input from participants by Raspberry Pi with DHT11 module
 References:     https://data.id.tue.nl/documentation/usecase-ded-2
 Platform:       Raspberry Pi 3b
 Language:       Python
-Module:         DHT11
+Module(s):      DHT11
 """
 import sys
 import Adafruit_DHT

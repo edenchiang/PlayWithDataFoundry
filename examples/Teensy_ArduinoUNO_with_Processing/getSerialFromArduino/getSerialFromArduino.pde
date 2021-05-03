@@ -1,19 +1,21 @@
-/******************************************************
-* Author:      I-Tang(Eden) Chiang 
-* Date:        Mar. 18, 2021
-* Description: Sample code for sending data, which is 
-*              fetched via the serial port and sent by
-*              Arduino devices, to the Data Foundry
-******************************************************/
+/**************************************************************************************************
+* Author:       I-Tang(Eden) Chiang <i.chiang@tue.nl>
+* Date:         Mar. 18, 2021
+* Description:  Sample code for sending data, which is fetched via the serial port and sent by 
+*               Arduino devices, to the Data Foundry
+**************************************************************************************************/
 import processing.serial.*;
 
-Serial myPort;  // Create object from Serial class
-String val;     // Data received from the serial port
+// Create object from Serial class
+Serial myPort;
+
+//  Data received from the serial port
+String val;
 
 void setup()
 {
-  // this is the list of ports, not the exact port number, so try to change the index 0 to 1 or 2 etc. to match the 
-  // port of the machine if it replies the error message for missing port.
+  // this is the list of ports, not the exact port number, so try to change the index 0 to 1 or 2 etc. 
+  // to match the port of the machine if it replies the error message for missing port.
   String portName = Serial.list()[0];
   // print(portName);
   myPort = new Serial(this, portName, 9600);

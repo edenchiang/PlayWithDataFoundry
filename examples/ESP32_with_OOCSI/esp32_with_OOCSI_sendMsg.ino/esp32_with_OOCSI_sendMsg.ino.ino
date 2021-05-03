@@ -1,13 +1,15 @@
-/***************************************************************************
-  Authors:        I-Tang (Eden) Chiang
-  Date:           Feb. 22, 2021
-  Description:    Implementation for the usecase of the DataFoundry --- SMART THINGS
-                  In addition, observing the data sent by itself
-  References:     https://data.id.tue.nl/documentation/usecase-smart-things
-  Platform:       ESP32 DevKit V1
-  Language:       Arduino
-  Module:         light sensor, 1 * 10K resistor
-***************************************************************************/
+/**************************************************************************************************
+  Authors:          I-Tang (Eden) Chiang <i.chiang@tue.nl>
+  Date:             Feb. 22, 2021
+  Description:      Implementation for the usecase of the DataFoundry --- SMART THINGS In addition, 
+                    observing the data sent by itself
+  Case references:  https://data.id.tue.nl/documentation/usecase-smart-things
+  Platform:         ESP32 DevKit V1
+  Module(s):        Light sensor * 1, 10K resistor * 1
+  Code References:  
+  https://github.com/iddi/oocsi-esp/blob/master/dist/oocsi/examples/OOCSI_sender/OOCSI_sender.ino
+  https://github.com/iddi/oocsi-esp/blob/master/dist/oocsi/examples/OOCSI_receiver/OOCSI_receiver.ino
+**************************************************************************************************/
 
 #include <OOCSI.h>
 
