@@ -7,7 +7,7 @@
 
 
 
-### Raspberry Pi 3b (WiFi board, with Python)
+### Raspberry Pi 3b (in Python)
 
 * [DHT11 in Pi](examples/DHT11_in_Pi/)
 
@@ -16,16 +16,18 @@
 	References: [Use-case: Data-enabled design II (informed step)](https://data.id.tue.nl/documentation/usecase-ded-2)
 
 
-### ESP32 (WiFi board, with Arduino)
 
-* [ESP32 with OOCSI](examples/ESP32_with_OOCSI)
+### ESP32 / ESP8266 / Arduino Nano 33 IoT (board with WiFi)
 
-	Get light data for the environment and send to the Data Foundry via OOCSI upload stream with ESP32, and observing the data with received information from download OOCSI stream
+* [ESP32 with OOCSI](examples/ESP_with_OOCSI)
+
+	Get light data for the environment and send to the Data Foundry via OOCSI upload stream with ESP32, ESP8266, or Arduino Nano 33 IoT, and observing the data with received information from download OOCSI stream
 	
 	References: [Use-case: Smart Things](https://data.id.tue.nl/documentation/usecase-smart-things)
 
 
-### Arduino boards / Teensy 3.2 (non-WiFi board, with Arduino)
+
+### Arduino boards / Teensy 3.2 (non-WiFi board)
 
 * [Teensy 3.2 / Arduino UNO with Processing](examples/Teensy_ArduinoUNO_with_Processing)
 
@@ -33,6 +35,7 @@
 	
 	In this case, the Arduino part will send (print) the sensor data to the serial port it's using, and the Processing part will read the data from the serial port with processing.serial library, then the data will be sent to the Data Foundry via OOCSI in Processing.
 	
+
 
 ### Processing 
 

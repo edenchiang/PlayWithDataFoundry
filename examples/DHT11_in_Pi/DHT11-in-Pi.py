@@ -90,4 +90,4 @@ while True:
             findMeans()
             arr = []
     
-    # time.sleep(60)
+    

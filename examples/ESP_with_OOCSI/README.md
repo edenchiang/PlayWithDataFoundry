@@ -1,6 +1,6 @@
 ### Description
 
-This Arduino code uses the oocsi-esp library ([check here](https://github.com/iddi/oocsi-esp#readme)), and a light sensor with a 10K pulldown resistor to detect the light value and send it to the Data Foundry via OOCSI service, also, try to get the echo data from the Data Foundry via OOCSI output stream service.
+This Arduino code uses the [oocsi-esp library](https://github.com/iddi/oocsi-esp#readme), and a light sensor with a 10K pulldown resistor to detect the light value and send it to the Data Foundry via OOCSI service, also, try to get the echo data from the Data Foundry via OOCSI output stream service.
 
 Both of the OOCSI library and DFDataset library can work for ESP32, ESP8266, and also Arduino Nano 33 IoT platforms. The main difference between the libraries is that users have to connect to the WiFi manually with code if using the DFDataset library instead of simply providing the SSID and password of the SSID of WiFi to connect to.
 
@@ -33,6 +33,8 @@ Both of the OOCSI library and DFDataset library can work for ESP32, ESP8266, and
 * Install ESP32 for Arduino IDE: [check](https://randomnerdtutorials.com/installing-the-esp32-board-in-arduino-ide-windows-instructions/)
 
 * Install driver for CP21XX chip of ESP32: [check](https://techexplorations.com/guides/esp32/begin/cp21xxx/)
+
+* ESP32 Dev Kit v1 pinout: [view chart](https://www.mischianti.org/wp-content/uploads/2020/11/ESP32-DOIT-DEV-KIT-v1-pinout-mischianti.png)
 
 
 ### ESP8266 Installation
