@@ -1,5 +1,5 @@
-## Implementation for some use-cases of the Data Foundry and some other ways for collecting data with the Data Foundry
-
+Implementation for some use-cases of the Data Foundry and some other ways for collecting data with the Data Foundry
+<br>
 
 ### Data Foundry
 
