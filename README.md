@@ -43,3 +43,9 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 	Sample code to demostrate sending / receiving interaction data to / from the Data Foundry by Processing app via OOCSI service
 
+
+
+### Hosting web page
+ * [Hosting by Data Foundry](examples/WWW_host_by_DF)
+
+	Use a Complete dataset of the Data Foundry as a simple host for web site.
