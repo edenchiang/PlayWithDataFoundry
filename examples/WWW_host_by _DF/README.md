@@ -1,6 +1,6 @@
 ### Description
 
-In this case, I use Data Foundry for a simple web site host with a Complete dataset.
+In this case, I simply host web pages with a Complete dataset of Data Foundry.
 
 
 ### Reminds
