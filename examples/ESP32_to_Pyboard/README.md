@@ -36,3 +36,9 @@ The pyboard would automatically execute the files named with "boot.py"(first) an
 ### Recover an ESP32 pyboard as a normal ESP32 for Arduino
 
 Try to upload any Arduino code to the ESP32 pyboard, then test whether the ESP32 is working as an Arduino ESP32.
+
+
+
+### Others
+
+Reference: [OOCSI in MicroPython with ESP32 board](https://github.com/iddi/oocsi-micropython)

@@ -29,11 +29,9 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### ESP32 in MicroPython
 
-* [ESP32 in MicroPython](examples/ESP32_to_Ptyboard)
+* [ESP32 in MicroPython](examples/ESP32_to_Pyboard)
 
 	How to act ESP32 as a pyboard in MicroPython with OOCSI or Data Foundry?
-
-	Reference: [OOCSI in MicroPython with ESP32 board](https://github.com/iddi/oocsi-micropython)
 
 
 
