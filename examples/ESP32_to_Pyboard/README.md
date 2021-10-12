@@ -16,20 +16,20 @@ Currently, the Micropython project only provide _thread library for ESP32, and t
 
 ### Flash ESP32 as a pyboard
 
-1. Connect ESP32 device and open Thonny: Select menu [Tools] -> [Options] -> [Interpreter]
+1. Connect ESP32 device and open Thonny: Select menu [**Tools**] -> [**Options**] -> [**Interpreter**]
 ![](images/tool_options.png)
-2. Select "MicroPython (ESP32)" as target device and click [Install or update firmware] (the Port selection is no matter here)
+2. Select "**MicroPython (ESP32)**" as target device and click [**Install or update firmware**] (the Port selection is no matter here)
 ![](images/refresh.png)
-3. Select the option start with "Silicon Labs CP210x ..." for the Port, and then select the firmware for the device, then "Install".
+3. Select the option start with "**Silicon Labs CP210x ...**" for the Port, and then select the firmware for the device, then "**Install**".
 ![](images/port_firmware.png)
-4. After finishing flashing the image, click [Close] and then [OK] to close the dialog, then the Micropython will be executed automatically by Thonny. Also, the file exploer of the pyboard will be on the left-bottom corner.
+4. After finishing flashing the image, click [**Close**] and then [**OK**] to close the dialog, then the Micropython will be executed automatically by Thonny. Also, the file exploer of the pyboard will be at the left-bottom corner.
 ![](images/esp32_thonny.JPG)
 
 
 
 ### Usage
 
-The pyboard would automatically execute the files named with "boot.py"(first) and "main.py"(second) after it starts up, so place the codes, which needs to be executed automatically, into one of these files.
+The pyboard would automatically execute the files named with "**boot.py**"(first) and "**main.py**"(second) after it starts up, so place the codes, which needs to be executed automatically, into one of these files.
 
 
 
