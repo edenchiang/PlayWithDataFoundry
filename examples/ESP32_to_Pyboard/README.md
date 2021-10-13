@@ -33,6 +33,36 @@ The pyboard would automatically execute the files named with "**boot.py**"(first
 
 
 
+#### Check MAC address
+
+Check the MAC address of the board in the MicroPython console with the commands below:
+
+<pre>
+# check MAC address of the board
+>>> import network
+>>> import binascii
+>>> mac = binascii.hexlify(network.WLAN().config('mac'), ":").decode()
+>>> print(mac)
+</pre>
+ ![](images/mac_address_mask.jpg)
+
+
+### How to copy a file to pyboard with Thoony:
+1. Select menu [**File**] -> [**Open**] -> [**This computer**] to choose and open the file with Thonny
+2. Then make sure it's focus on the file and select menu [**File**] -> [**Save as**] -> [**MicroPython device**] -> [**Enter the file name with wanted format, e.g., main.py**] to save it to pyboard
+3. Done.
+
+
+
+### Subscribe to the test channel of OOCSI
+
+The code "main.py" shows how to subscribe to the test channel of OOCSI server and listen to it to get data from the channel.
+Copy the file to the pyboard, make sure all the necessary information are provided (WiFi SSID, password, OOCSI server address), and reboot it, the Shell window of Thoony will show the data received from the test channel.
+
+P.S. Remember to copy the **oocsi.py** into the pyboard as well, otherwise "main.py" will not work properly.
+
+
+
 ### Recover an ESP32 pyboard as a normal ESP32 for Arduino
 
 Try to upload any Arduino code to the ESP32 pyboard, then test whether the ESP32 is working as an Arduino ESP32.
@@ -41,4 +71,6 @@ Try to upload any Arduino code to the ESP32 pyboard, then test whether the ESP32
 
 ### Others
 
-Reference: [OOCSI in MicroPython with ESP32 board](https://github.com/iddi/oocsi-micropython)
+Reference: 
+* [OOCSI in MicroPython with ESP32 board](https://github.com/iddi/oocsi-micropython)
+* [MicroPython libraries](https://docs.micropython.org/en/latest/library/index.html#)
