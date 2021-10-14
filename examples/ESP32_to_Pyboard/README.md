@@ -23,7 +23,7 @@ Currently, the Micropython project only provide _thread library for ESP32, and t
 3. Select the option start with "**Silicon Labs CP210x ...**" for the Port, and then select the firmware for the device, then "**Install**".
 ![](images/port_firmware.png)
 4. After finishing flashing the image, click [**Close**] and then [**OK**] to close the dialog, then the Micropython will be executed automatically by Thonny. Also, the file exploer of the pyboard will be at the left-bottom corner.
-![](images/esp32_thonny.JPG)
+![](images/esp32_thonny_mask.JPG)
 
 
 
@@ -48,8 +48,10 @@ Check the MAC address of the board in the MicroPython console with the commands 
 
 
 ### How to copy a file to pyboard with Thoony:
-1. Select menu [**File**] -> [**Open**] -> [**This computer**] to choose and open the file with Thonny
+1. Select menu [**File**] -> [**Open**] -> [**This computer**] -> choose and open the file with Thonny
+![](images/open_from_this_computer.png)
 2. Then make sure it's focus on the file and select menu [**File**] -> [**Save as**] -> [**MicroPython device**] -> [**Enter the file name with wanted format, e.g., main.py**] to save it to pyboard
+![](images/save_to_micropython_device.png)
 3. Done.
 
 
