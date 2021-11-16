@@ -6,15 +6,14 @@ In this demo, Raspberry Pi Pico will connect to the Internet with a WiFi module,
 
 ### Preparation
 
-* Physical setting for ESP-12S module: 
-    0. [ESP-12S pinout](https://tasmota.github.io/docs/Pinouts/#esp-12s)
+* Physical setting for ESP-12S module: [ESP-12S pinout](https://tasmota.github.io/docs/Pinouts/#esp-12s)
     1. Connect VCC(Pin 8), EXT_RSTB(Pin 1), and CHIP_EN(Pin 3) to VCC(+3.3V)
     2. Connect GND(Pin 15) and U0RTS(Pin 16) to GND(-)
     3. Connect U0RXD(Pin 21) to RX pin
     4. Connect U0TXD(Pin 22) to TX pin
     ![](images/module-pin-side-1_800.jpg)
     ![](images/module-pin-side-2_800.jpg)
-    ![](images/module-pin-back_800.jpg)
+    ![](images/module-pin-back_800x.jpg)
 
 
 
