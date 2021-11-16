@@ -51,7 +51,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### Rapberry Pi Pico
 
-* [Raspberry Pi Pico with ESP-12S](example/RPi-Pico_with_ESP-12S)
+* [Raspberry Pi Pico with ESP-12S](examples/RPi-Pico_with_ESP-12S)
 
 	Work in Micropython with a powerful budget choice.
 
