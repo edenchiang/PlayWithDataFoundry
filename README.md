@@ -7,6 +7,9 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 
 
+<br><br>
+### Boards with WiFi chip built-in
+***
 ### Raspberry Pi 3b (in Python)
 
 * [DHT11 in Pi](examples/DHT11_in_Pi/)
@@ -17,7 +20,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 
 
-### ESP32 / ESP8266 / Arduino Nano 33 IoT (board with WiFi)
+### ESP32 / ESP8266 / Arduino Nano 33 IoT
 
 * [ESP32 with OOCSI](examples/ESP_with_OOCSI)
 
@@ -35,16 +38,29 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 
 
-### Arduino boards / Teensy 3.2 (non-WiFi board)
+<br><br>
+### Boards without WiFi chip built-in
+***
+### Arduino boards / Teensy 3.2 
 
 * [Teensy 3.2 / Arduino UNO with Processing](examples/Teensy_ArduinoUNO_with_Processing)
 
 	An alternative way to upload data to the Data Foundry via OOCSI with non-WiFi boards.
 	
 	In this case, the Arduino part will send (print) the sensor data to the serial port it's using, and the Processing part will read the data from the serial port with processing.serial library, then the data will be sent to the Data Foundry via OOCSI in Processing.
-	
+
+### Rapberry Pi Pico
+
+* [Raspberry Pi Pico with ESP-12S](example/RPi-Pico_with_ESP-12S)
+
+	Work in Micropython with a powerful budget choice.
+
+	This practice shows how to connect Pico to the Internet with ESP-12S WiFi module
 
 
+<br><br>
+### Software only
+***
 ### Processing 
 
 * [Collect data with Processing via OOCSI service](examples/Processing_with_OOCSI)
@@ -53,7 +69,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 
 
-### Hosting web page
+### Hosting simple web page for the project
  * [Hosting by Data Foundry](examples/WWW_host_by_DF)
 
 	Use a Complete dataset of the Data Foundry as a simple host for web site.
