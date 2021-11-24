@@ -24,12 +24,18 @@ In this demo, Raspberry Pi Pico will connect to the Internet with the WiFi modul
     3. Enter these AT commands in the Shell window and check:
         * AT : check whether the AT command is working or not
         * AT+CIPSTAMAC? : Get MAC address of ESP-12S module if needed
+
         ![](images/ATCMD_2.JPG)
+
         * AT+CWJAP="SSID","PASSWORD" : Try to connect ESP-12S module to the Internet
+
         ![](images/ATCMD_3.JPG)
+
         * AT+CWMODE=1 : Set ESP-12S module work as a WiFi client
         * AT+CIPSTA? : Check the IP address of ESP-12S module if needed
+
         ![](images/ATCMD_1.JPG)
+        
         * [AT commands reference](http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/)
     4. Troubleshooting:
         * If there is the same error as below:
