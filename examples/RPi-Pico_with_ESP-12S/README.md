@@ -1,44 +1,62 @@
 ### Description
 
-In this demo, Raspberry Pi Pico will connect to the Internet with a WiFi module, ESP-12S, and fetch information via GET and POST requests.
+In this demo, Raspberry Pi Pico will connect to the Internet with the WiFi module, ESP-12S, and fetch online information via GET and POST requests.
 
 
 
 ### Preparation
 
-* Physical setting for ESP-12S module: [ESP-12S pinout](https://tasmota.github.io/docs/Pinouts/#esp-12s)
-    1. Connect VCC(Pin 8), EXT_RSTB(Pin 1), and CHIP_EN(Pin 3) to VCC(+3.3V)
-    2. Connect GND(Pin 15) and U0RTS(Pin 16) to GND(-)
-    3. Connect U0RXD(Pin 21) to RX pin
-    4. Connect U0TXD(Pin 22) to TX pin
-    ![](images/module-pin-side-1_800.jpg)
-    ![](images/module-pin-side-2_800.jpg)
-    ![](images/module-pin-back_800x.jpg)
+1. First, combine ESP-12S module and the **[breakout](https://www.tinytronics.nl/shop/en/tools-and-mounting/prototyping-supplies/breakout-boards/esp8266-wifi-module-esp-12-breakout-board)** with soldering works
 
+2. Connections between ESP-12S module and Raspberry Pi Pico: [ESP-12S pinout](https://tasmota.github.io/docs/Pinouts/#esp-12s), [Raspberry Pi Pico pinout](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/pinouts)
+    |Pins of ESP-12S module|Pins of Raspberry Pi Pico|
+    |---|---|
+    |VCC|VCC (3.3V)|
+    |GND, GPIO15|GND|
+    |RXD(GPIO3)|UART0 TX(GPIO0)|
+    |TXD(GPIO1)|UART0 RX(GPIO1)|
 
+3. Save the files to RPi Pico: [how to save files into RPi Pico with Thonny Python IDE](https://github.com/edenchiang/PlayWithDataFoundry/tree/master/examples/ESP32_to_Pyboard#how-to-copy-a-file-to-pyboard-with-thoony)
 
-* Make sure ESP-12S module is able to work properly with Arduino UNO: 
-    1. Connect ESP-12S module to Arduino Uno board with the pin setting above
-    2. Upload an empty script (or create a new one and upload directly without any change) to UNO board and open Serial port monitor
-    3. Enter these AT commands in the Serial port monitor and check:
+4. Make sure ESP-12S module is working properly in client mode: 
+    1. Connect ESP-12S module and Raspberry Pi Pico with the pin setting above
+    2. Open [Thonny](https://thonny.org/) and execute [atcmd_pico.py](atcmd_pico.py)
+    3. Enter these AT commands in the Shell window and check:
         * AT : check whether the AT command is working or not
-        * AT+CWMODE=1 : Set ESP-12S modulw as a WiFi client
-        * AT+CWJAP="SSID","PASSWORD" : Connect ESP-12S module to the Internet
-        * AT+CIPSTA? : Check the IP address of ESP-12S module if needed
         * AT+CIPSTAMAC? : Get MAC address of ESP-12S module if needed
-        ![](images/serial_port_monitor_with_frame.jpg)
+        ![](images/ATCMD_2.JPG)
+        * AT+CWJAP="SSID","PASSWORD" : Try to connect ESP-12S module to the Internet
+        ![](images/ATCMD_3.JPG)
+        * AT+CWMODE=1 : Set ESP-12S module work as a WiFi client
+        * AT+CIPSTA? : Check the IP address of ESP-12S module if needed
+        ![](images/ATCMD_1.JPG)
         * [AT commands reference](http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/)
+    4. Troubleshooting:
+        * If there is the same error as below:
+        ![](images/error_decode.JPG)
+            1. Update the code in line 25 and 26 as below, then execute the atcmd_pico.py again, and try to enter some AT commands
+
+            ![](images/error_decode_step-1.JPG)
+
+            The result of AT commands should be like this:
+
+            ![](images/error_decode_step-2.JPG)
+
+            2. Recover the code in line 25 as below, and try to execute the atcmd_pico.py, and try to enter some AT commands
+
+            ![](images/error_decode_step-3.JPG)
+
+            The AT commands should work now:
+
+            ![](images/error_decode_step-4.JPG)
+
+
 
 ### Process
 
-1. Connect ESP-12S module to RPi Pico with the pin settings above, and save the .py files to RPi Pico: 
-    - [how to save files into RPi Pico with Thonny Python IDE](https://github.com/edenchiang/PlayWithDataFoundry/tree/master/examples/ESP32_to_Pyboard#how-to-copy-a-file-to-pyboard-with-thoony)
-    - [Raspberry Pi Pico pinout](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/pinouts)
+1. Open "[esp8266_test.py](esp8266_test.py)" from the Pico and enter the correct SSID and password in line 48
 
-2. Open "[esp8266_test.py](esp8266_test.py)" from the Pico and enter the correct SSID and password in line 48
+2. Run the python script
 
-3. Run the python script
-
-4. [Code reference](https://github.com/Circuit-Digest/rpi-pico-micropython-esp8266-lib)
+3. [Code reference](https://github.com/Circuit-Digest/rpi-pico-micropython-esp8266-lib)
     - In this reference, the WiFi module is ESP-01, but the code works fine with ESP-12S for the same ESP8266 chip with the same pin setting
-
