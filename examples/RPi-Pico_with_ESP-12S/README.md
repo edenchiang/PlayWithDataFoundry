@@ -42,7 +42,7 @@ In this demo, Raspberry Pi Pico will connect to the Internet with the WiFi modul
 
         ![](images/error_decode.JPG)
 
-        1. Update the code in line 25 and 26 as below, then execute the atcmd_pico.py again, and try to enter some AT commands
+        1. Update the code in line 25 and 26 as below, then execute the atcmd_pico.py again, and try to enter some AT commands in Shell window
 
         ![](images/error_decode_step-1.JPG)
 

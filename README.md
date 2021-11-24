@@ -55,7 +55,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 	Work in Micropython with a powerful budget choice.
 
-	This practice shows how to connect Pico to the Internet with ESP-12S WiFi module
+	This practice shows how to connect Pico to the Internet with ESP-12S WiFi module but not working for OOCSI library at this moment.
 
 
 <br><br>
