@@ -39,8 +39,9 @@ In this demo, Raspberry Pi Pico will connect to the Internet with the WiFi modul
         * [AT commands reference](http://room-15.github.io/blog/2015/03/26/esp8266-at-command-reference/)
     4. Troubleshooting:
         * If there is the same error as below:
-        
+
         ![](images/error_decode.JPG)
+
             1. Update the code in line 25 and 26 as below, then execute the atcmd_pico.py again, and try to enter some AT commands
 
             ![](images/error_decode_step-1.JPG)
