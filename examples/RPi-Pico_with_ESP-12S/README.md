@@ -8,7 +8,9 @@ In this demo, Raspberry Pi Pico will connect to the Internet with the WiFi modul
 
 1. First, combine ESP-12S module and the **[breakout](https://www.tinytronics.nl/shop/en/tools-and-mounting/prototyping-supplies/breakout-boards/esp8266-wifi-module-esp-12-breakout-board)** with soldering works
 
-2. Connections between ESP-12S module and Raspberry Pi Pico: [ESP-12S pinout](https://tasmota.github.io/docs/Pinouts/#esp-12s), [Raspberry Pi Pico pinout](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/pinouts)
+2. Connections between ESP-12S module and Raspberry Pi Pico:
+
+    Pinout references: [ESP-12S](images/ESP-12s_pinout.jpg), [Raspberry Pi Pico](images/RPi_Pico_pinout-800x576.jpg)
     |Pins of ESP-12S module|Pins of Raspberry Pi Pico|
     |---|---|
     |VCC|VCC (3.3V)|
