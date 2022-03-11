@@ -449,7 +449,10 @@ class ESP8266:
                     retData = self._sendToESP8266(getHeader, delay=2)
                     self._sendToESP8266("AT+CIPCLOSE\r\n")
                     retData=self.__httpResponse.parseHTTP(retData)
-                    return retData, self.__httpResponse.getHTTPResponse()
+                    # there is an additional '.' at the end of the response string, and it's needed removed
+                    httpRes = self.__httpResponse.getHTTPResponse()
+                    httpRes = httpRes[:-1]
+                    return retData, httpRes
                 else:
                     return 0, None
             else:
