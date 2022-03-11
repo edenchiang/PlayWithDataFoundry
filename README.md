@@ -70,5 +70,6 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 ### Other appliences
 ***
 #### Telegram
+
 * [Arduino with Telegram](examples/Arduino_with_Telegram)
 	To receive Telegram messages from the Arduino boards with Wi-Fi connection through a Telegram bot
