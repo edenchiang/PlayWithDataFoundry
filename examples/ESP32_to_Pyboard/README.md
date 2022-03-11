@@ -61,7 +61,7 @@ Check the MAC address of the board in the MicroPython console with the commands 
 The code "main.py" shows how to subscribe to the test channel of OOCSI server and listen to it to get data from the channel.
 Copy the file to the pyboard, make sure all the necessary information are provided (WiFi SSID, password, OOCSI server address), and reboot it, the Shell window of Thoony will show the data received from the test channel.
 
-P.S. Remember to copy the **oocsi.py** into the pyboard as well, otherwise "main.py" will not work properly.
+P.S. Remember to copy the **[oocsi.py](https://raw.githubusercontent.com/iddi/oocsi-micropython/main/oocsi.py)** into the pyboard as well, otherwise "main.py" will not work properly.
 ![](images/msg_testChannel.JPG)
 
 

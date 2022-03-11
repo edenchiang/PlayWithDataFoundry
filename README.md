@@ -43,13 +43,6 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	In this case, the Arduino part will send (print) the sensor data to the serial port it's using, and the Processing part will read the data from the serial port with processing.serial library, then the data will be sent to the Data Foundry via OOCSI in Processing.
 
 
-#### Rapberry Pi Pico
-
-* [Raspberry Pi Pico with ESP-12S](examples/RPi-Pico_with_ESP-12S)
-	Work in Micropython with a powerful budget choice.
-	This practice shows how to connect Pico to the Internet with ESP-12S WiFi module but not working for OOCSI library at this moment.
-
-
 
 <br><br>
 ### Software only
@@ -73,3 +66,12 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 * [Arduino with Telegram](examples/Arduino_with_Telegram)
 	To receive Telegram messages from the Arduino boards with Wi-Fi connection through a Telegram bot
+
+
+
+#### Rapberry Pi Pico
+
+* [Raspberry Pi Pico with ESP-12S](examples/RPi-Pico_with_ESP-12S)
+	Work in Micropython with a powerful budget choice.
+	This practice shows how to connect Pico to the Internet with ESP-12S WiFi module but not work with OOCSI library yet.
+
