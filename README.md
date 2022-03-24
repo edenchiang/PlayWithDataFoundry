@@ -55,7 +55,12 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 #### Hosting simple web page for the project
 * [Hosting by Data Foundry](examples/WWW_host_by_DF)
-	Use a Complete dataset of the Data Foundry as a simple host for web site.
+	Use a Complete dataset of the Data Foundry as a simple host for general web site or the home page for the project where the Complete dataset belongs to.
+
+
+#### Telegram
+* [Collecting data from participants with the Data Foundry Telegram bot]()
+	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
 
 
 

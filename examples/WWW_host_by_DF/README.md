@@ -14,12 +14,18 @@ In this case, I simply host web pages with a Complete dataset of Data Foundry.
 
 ### Steps
 
-1. Prepare the files for the web site: .html, .js and .css, etc.
-2. Create a Complete dataset.
+1. Prepare the files for the web site: index.html (at least), .js and .css files, etc.
+2. Create a Complete dataset with any name, but if you want to host the web pages for the project, just name the dataset as WWW.
 ![](images/before-uploading.png)
 3. Upload the files to the dataset.
 ![](images/uploading-2.png)
-4. (1)Activate the web access of the dataset, and (2)check the content of the web site.
-![](images/ds-after-uploading-after.png)
-5. My web site would be like this after clicking the "JavaScript test!!" button.
+4. 
+    - For hosting general web pages
+        - First, Activate the web access of the dataset, and 
+        - Second, check the content of the web site.
+        ![](images/ds-after-uploading-after.png)
+    - For hosting the project web page,
+        - The link of the project web page will show up right next to the project name with smaller green text of "PROJECT WEBSITE"
+        ![](images/project_page_with_text.JPG)
+5. The web site would be like this after clicking the "JavaScript test!!" button.
 ![](images/webpage-2.png)
