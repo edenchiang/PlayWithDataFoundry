@@ -20,10 +20,10 @@ Both of the OOCSI library and DFDataset library can work for ESP32, ESP8266, and
 
 ### Data Foundry setting
 
-* IoT dataset setting for uploading OOCSI stream: Channel name
+* IoT dataset setting for uploading OOCSI stream: monitoring the channel and storing incoming data to the dataset
 ![](images/usecase-esp32-OOCSI-upload.jpg)
 
-* IoT dataset setting for downloading OOCSI stream: Channel name
+* IoT dataset setting for downloading OOCSI stream: sending out all the data coming into this dataset
 ![](images/usecase-esp32-OOCSI-download.png)
 
 
