@@ -13,7 +13,10 @@ void setup() {
 }
 
 void loop() {
-  int val = analogRead(0);
+  int val = analogRead(A0);
+  Serial.print(val);
+  Serial.print(":");
+  val = (val / 4) - 50;
   Serial.println(val);
-  delay(200);
+  delay(1000);
 }
