@@ -32,7 +32,6 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	How to act ESP32 / ESP8266 as a pyboard in MicroPython with OOCSI or Data Foundry?
 
 
-
 <br><br>
 ### Boards without WiFi chip built-in
 ***
@@ -41,7 +40,6 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 * [Teensy 3.2 / Arduino UNO with Processing](examples/Teensy_ArduinoUNO_with_Processing)
 	An alternative way to upload data to the Data Foundry via OOCSI with non-WiFi boards.
 	In this case, the Arduino part will send (print) the sensor data to the serial port it's using, and the Processing part will read the data from the serial port with processing.serial library, then the data will be sent to the Data Foundry via OOCSI in Processing.
-
 
 
 <br><br>
@@ -63,7 +61,6 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
 
 
-
 <br><br>
 ### Other appliences
 ***
@@ -73,10 +70,14 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	To receive Telegram messages from the Arduino boards with Wi-Fi connection through a Telegram bot
 
 
-
 #### Rapberry Pi Pico
 
 * [Raspberry Pi Pico with ESP-12S](examples/RPi-Pico_with_ESP-12S)
 	Work in Micropython with a powerful budget choice.
 	This practice shows how to connect Pico to the Internet with ESP-12S WiFi module but not work with OOCSI library yet.
 
+
+#### Apple Health & Google Fit
+
+* [Sync Apple Health data with Google Fit](examples/Apple_to_GoogleFit/)
+	Showing the process to sync Apple Health data with Google Fit app (or other compatible apps).
