@@ -3,13 +3,11 @@
 <br><br>
 
 ## Data Foundry
-***
 [Data Foundry](https://data.id.tue.nl) is a data infrastructure for prototyping and designing with data for the ID department of TU/e. In addition, the site serves as a Design Research Data Management system.
 
 <br><br>
 
 ## Boards with WiFi chip built-in
-***
 #### **Raspberry Pi 3b (in Python)**
 
 * [DHT11 in Pi](examples/DHT11_in_Pi/)<br>
@@ -34,7 +32,6 @@
 <br><br>
 
 ### Boards without WiFi chip built-in
-***
 #### **Arduino boards / Teensy 3.2**
 
 * [Teensy 3.2 / Arduino UNO with Processing](examples/Teensy_ArduinoUNO_with_Processing)<br>
@@ -45,7 +42,6 @@
 <br><br>
 
 ## Software only
-***
 #### **Processing** 
 
 * [Collect data with Processing via OOCSI service](examples/Processing_with_OOCSI)<br>
@@ -65,7 +61,6 @@
 <br><br>
 
 ## Other appliences
-***
 #### **Telegram bot with Arduino**
 
 * [Arduino with Telegram](examples/Arduino_with_Telegram)<br>
