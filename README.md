@@ -44,7 +44,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 ### **Hosting simple web page for the project**
 * [Hosting by Data Foundry](examples/WWW_host_by_DF)<br>
 	Use a Complete dataset of the Data Foundry as a simple host for general web site or the home page for the project where the Complete dataset belongs to.
-
+<br><br>
 
 ## Other appliences
 ### **Telegram bot with Arduino**
