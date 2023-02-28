@@ -1,7 +1,7 @@
 /**************************************************************************************************
-* Author:       I-Tang(Eden) Chiang <i.chiang@tue.nl>
-* Date:         Oct. 30, 2020
-* Description:  Draft version of the sample code for AAI lecture of Industrial Design Department, 
+  Author:       I-Tang(Eden) Chiang <i.chiang@tue.nl>
+  Date:         Oct. 30, 2020
+  Description:  Draft version of the sample code for AAI lecture of Industrial Design Department, 
                 TU/e to demostrate sending interaction  data to Data Foundry by Processing app via 
                 OOCSI service
 **************************************************************************************************/

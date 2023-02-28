@@ -18,7 +18,7 @@ from oocsi import OOCSI
 # connect to OOCSI
 # replace the 'unique_handler_name' as something unique
 # OOCSI host for the Data Foundry: oocsi.id.tue.nl
-oocsi = OOCSI('unique_handler_name', 'url_or_host_or_ip_address')
+oocsi = OOCSI('unique_handler_name', 'url_or_ip_address_of_host')
 
 mins = 0
 arr = []

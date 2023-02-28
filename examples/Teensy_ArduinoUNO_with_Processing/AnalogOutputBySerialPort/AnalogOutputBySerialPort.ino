@@ -1,7 +1,7 @@
 /**************************************************************************************************
-  Authors:        I-Tang (Eden) Chiang <i.chiang@tue.nl>
+  Author:         I-Tang (Eden) Chiang <i.chiang@tue.nl>
   Date:           Mar. 18, 2021
-  Description:    In this code, the data will be send out with the serial port, and can be checked 
+  Description:    In this code, data will be send out through serial port, and can be checked 
                   by the Serial monitor of the Arduino IDE
   Platform:       Teensy 3.2 / Arduino Uno
   Module(s):      Light sensor * 1, 10K resistor * 1
