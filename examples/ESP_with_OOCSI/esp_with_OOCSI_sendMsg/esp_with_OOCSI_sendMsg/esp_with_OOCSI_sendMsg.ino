@@ -1,5 +1,4 @@
 /**************************************************************************************************
-  Authors:          I-Tang (Eden) Chiang <i.chiang@tue.nl>
   Date:             Feb. 22, 2021
   Description:      Implementation for the usecase of the DataFoundry --- SMART THINGS In addition, 
                     observing the data sent by itself
@@ -21,7 +20,6 @@ const char* password = "WIFI_PASSWORD";
 // name for connecting with OOCSI (unique handle)
 const char* OOCSIName = "UNIQUE_HANDLER_NAME";
 // put the adress of your OOCSI server here, can be URL or IP address string
-// host for the Data Foundry: oocsi.id.tue.nl
 const char* hostserver = "URL_or_IP_Address_string";
 // channel for IoT dataset of the Data Foundry for downloading data
 const char* subscribeChannel = "CHANNEL_NAME_for_downloading";
