@@ -4,8 +4,8 @@ var chats = {};
 chats['hi'] = {text: "Hello, do you want to start the questionnaire? [[Yes]][[No]]", next: ""}
 
 // chat phases
-chats['phase-0'] = {text: "Content of phase-0 [[ok, good]]", next: "ok, good"}
-chats['ok, good'] = {text: "content of 'ok, good'", next: "phase-2"}
+chats['phase-0'] = {text: "Content of phase-0 [[ok, good]]", next: "phase-1"}
+chats['phase-1'] = {text: "content of phase-1", next: "phase-2"}
 chats['phase-2'] = {text: "content of phase-2", next: "phase-3"}
 chats['phase-3'] = {text: "content of phase-3", next: "phase-4"}
 chats['phase-4'] = {text: "Thanks, see you soon!", next: ""}
@@ -42,7 +42,7 @@ if(!isConversationStarted) {
     switch(msg) {
     case "phase-0":
       if(msg === "ok, good") {
-        next_question = "ok, good"
+        next_question = "phase-1"
       }
       break;
     case "ok, good":
@@ -66,8 +66,6 @@ if(!isConversationStarted) {
         // inquery = next_question
       } else if (msg === "no") {
         next_question = "phase-4"
-        isConversationStarted = false
-        inquery = ""
       }
       break;
     case "phase-2":
