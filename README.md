@@ -1,11 +1,13 @@
 Implementation for some use-cases of the Data Foundry and some other ways for collecting data with the Data Foundry
 <br>
 
-## Data Foundry
+## **Data Foundry**
+---
 [Data Foundry](https://data.id.tue.nl) is a data infrastructure for prototyping and designing with data for the ID department of TU/e. In addition, the site serves as a Design Research Data Management system.
 <br><br>
 
-## Boards with WiFi chip built-in
+## **Boards with WiFi chip built-in**
+---
 ### **Raspberry Pi 3b (in Python)**
 
 * [DHT11 in Pi](examples/DHT11_in_Pi/)<br>
@@ -26,7 +28,8 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
   How to act ESP32 / ESP8266 as a pyboard in MicroPython with OOCSI or Data Foundry?
 <br><br>
 
-## Boards without WiFi chip built-in
+## **Boards without WiFi chip built-in**
+---
 ### **Arduino boards / Teensy 3.2**
 
 * [Teensy 3.2 / Arduino UNO with Processing](examples/Teensy_ArduinoUNO_with_Processing)<br>
@@ -34,7 +37,8 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	In this case, the Arduino part will send (print) the sensor data to the serial port it's using, and the Processing part will read the data from the serial port with processing.serial library, then the data will be sent to the Data Foundry via OOCSI in Processing.
 <br><br>
 
-## Software only
+## **Software only**
+---
 ### **Processing** 
 
 * [Collect data with Processing via OOCSI service](examples/Processing_with_OOCSI)<br>
@@ -44,9 +48,18 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 ### **Hosting simple web page for the project**
 * [Hosting by Data Foundry](examples/WWW_host_by_DF)<br>
 	Use a Complete dataset of the Data Foundry as a simple host for general web site or the home page for the project where the Complete dataset belongs to.
+
+
+### **Telegram bot of Data Foundry**
+* [Collecting general **diary, annotation, and media data** from participants with the Data Foundry Telegram bot](examples/Collecting_general_data_with_DF_bot/) #Diary #Annotation #Media<br>
+	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
+
+* [Collecting data from participants in **questionnaire structure** with your (Data Foundry) Telegram bot](examples/Collecting_questionnaire_data_with_DF_bot/) #Script<br>
+	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
 <br><br>
 
-## Other appliences
+## **Other appliences**
+---
 ### **Telegram bot with Arduino**
 
 * [Arduino with Telegram](examples/Arduino_with_Telegram)<br>
