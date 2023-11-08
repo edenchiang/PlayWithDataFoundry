@@ -63,21 +63,18 @@ if(!isConversationStarted) {
     case "hi":
       if(msg === "yes") {
         next_question = "phase-0"
-        // inquery = next_question
       } else if (msg === "no") {
         next_question = "phase-4"
       }
       break;
     case "phase-2":
-      // butter
       next_question = "phase-3"
       break;
     case "phase-3":
-      // other stuffs
       next_question = "phase-4"
       break;
     default:
-      // something wrong with inquery, restart the conversation
+      // if something wrong with inquery, restart the conversation
       next_question = "hi"
       break; 
     }
