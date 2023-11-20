@@ -80,3 +80,8 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 * [Sync Apple Health data with Google Fit](examples/Apple_to_GoogleFit/)<br>
 	Showing the process to sync Apple Health data with Google Fit app (or other compatible apps).
+
+
+### **How to check data passed through OOCSI channel?**
+
+* Coming soon
