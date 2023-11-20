@@ -56,10 +56,8 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 
 ### **Telegram bot of Data Foundry**
-* [Collecting general **diary, annotation, and media data** from participants with the Data Foundry Telegram bot](examples/Collecting_general_data_with_DF_bot/) #Diary #Annotation #Media<br>
-	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
 
-* [Collecting data from participants in **questionnaire structure** with your (Data Foundry) Telegram bot](examples/Collecting_questionnaire_data_with_DF_bot/) #Script<br>
+* [Collect data from participants in **questionnaire structure** with your (Data Foundry) Telegram bot](examples/Collect_questionnaire_data_with_DF_bot/) #Script<br>
 	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
 <br><br>
 
