@@ -5,9 +5,15 @@ This Arduino code uses the [oocsi-esp library](https://github.com/iddi/oocsi-esp
 Both of the OOCSI library and DFDataset library can work for ESP32, ESP8266, and also Arduino Nano 33 IoT platforms. The main difference between the libraries is that users have to connect to the WiFi manually with code if using the DFDataset library instead of simply providing the SSID and password of the SSID of WiFi to connect to.
 
 * Tested WiFi platforms:
-  - ESP32: ESP32 DevKit V1
-  - ESP8266: adafruit Huzzah ESP8266
-  - Arduino: Arduino Nano 33 IoT
+  - ESP32 DevKit V1
+  - ESP32 PICO-KIT
+  - Adafruit Huzzah ESP8266
+  - Lolin S3
+  - Lolin D1 mini
+  - seeed studio XIAO ESP32C3
+  - Arduino Nano 33 IoT
+  - Arduino Uno R4 Wi-Fi
+  - Arduino Nano RP2040 CONNECT
 
 ### Physical setting
 
