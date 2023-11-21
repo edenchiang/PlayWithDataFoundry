@@ -9,7 +9,7 @@ In this section, I'll use Form dataset of the Data Foundry as a questionnaire to
   2. Update the questionnaire in Markdown language
   3. Save it
   
-  ![](images/Form_dataset_setting.JPG)
+  ![](images/Form_dataset_setting.png)
 
 
 * For forwarding data to OOCSI channel: Data Foundry will forward all the data come into this dataset to the OOCSI channel
@@ -35,3 +35,9 @@ Subscribe the channel before starting the questionnaire research. The data can b
 
 ### What's more
 As the data can be retrieved from OOCSI, which means it's possible to play the data with IoT devices as soon as it was forwarded by the Data Foundry. To print it out, to perform interaction with the data, or to send a message to somebody through Telegram library, there are possibilities for the data.
+
+<br />
+
+## Source
+
+All screenshots are sourced from [Data Foundry](https://data.id.tue.nl/), and [OOCSI](https://oocsi.id.tue.nl)
