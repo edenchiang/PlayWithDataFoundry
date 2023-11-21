@@ -60,3 +60,9 @@ Both of the OOCSI library and DFDataset library can work for ESP32, ESP8266, and
 ### JSON content handling
 
 * References: [ArduinoJson](https://arduinojson.org/)
+
+<br />
+
+## Source
+
+All screenshot(s) are sourced from [Data Foundry](https://data.id.tue.nl/)

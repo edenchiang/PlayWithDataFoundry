@@ -29,3 +29,9 @@ In this case, I simply host web pages with a Complete dataset of Data Foundry.
         ![](images/project_page_with_text.JPG)
 5. The web site would be like this after clicking the "JavaScript test!!" button.
 ![](images/webpage-2.png)
+
+<br />
+
+## Source
+
+All screenshot(s) are sourced from [Data Foundry](https://data.id.tue.nl/)
