@@ -84,4 +84,4 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### **How to check data passed through OOCSI channel?**
 
-* Coming soon
+* [Check incoming data of OOCSI channel](examples/Check_incoming_data_of_OOCSI/)<br>
