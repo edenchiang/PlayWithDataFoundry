@@ -62,7 +62,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### **Access data in Entity dataset with Script and IoT dataset**
 * [Script for passing IoT data to Entity dataset](examples/Script_for_passing_IoT_data_to_Entity)<br>
-	Collect data in questionnaire format host by Data Foundry, all you need to know is how to put your questions in Markdown language.
+	Access data in Entity dataset by operating data from OOCSI with script.
 
 <br>
 
@@ -87,7 +87,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	Showing the process to sync Apple Health data with Google Fit app (or other compatible apps).
 
 
-### **How to check data passed through OOCSI channel?**
+### **Check data passed through OOCSI channel**
 
 * [Check incoming data of OOCSI channel](examples/Check_incoming_data_of_OOCSI/)<br>
 
