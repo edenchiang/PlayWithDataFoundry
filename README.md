@@ -45,8 +45,8 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 	Sample code to demostrate sending / receiving interaction data to / from the Data Foundry by Processing app via OOCSI service
 
 
-### **Hosting simple web page for the project**
-* [Hosting by Data Foundry](examples/WWW_host_by_DF)<br>
+### **Home page of Data Foundry project**
+* [Host web page for Data Foundry project](examples/WWW_host_by_DF)<br>
 	Use a Complete dataset of the Data Foundry as a simple host for general web site or the home page for the project where the Complete dataset belongs to.
 
 
@@ -57,7 +57,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### **Telegram bot of Data Foundry**
 
-* [Collect data from participants in **questionnaire structure** with your (Data Foundry) Telegram bot](examples/Collect_questionnaire_data_with_DF_bot/) #Script<br>
+* [Collect data from participants in **questionnaire structure** with (Data Foundry) Telegram bot](examples/Collect_questionnaire_data_with_DF_bot/) #Script<br>
 	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
 
 ### **Access data in Entity dataset with Script and IoT dataset**
@@ -90,3 +90,5 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 ### **How to check data passed through OOCSI channel?**
 
 * [Check incoming data of OOCSI channel](examples/Check_incoming_data_of_OOCSI/)<br>
+
+<br />
