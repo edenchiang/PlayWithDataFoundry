@@ -59,7 +59,12 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 * [Collect data from participants in **questionnaire structure** with your (Data Foundry) Telegram bot](examples/Collect_questionnaire_data_with_DF_bot/) #Script<br>
 	Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
-<br><br>
+
+### **Access data in Entity dataset with Script and IoT dataset**
+* [Script for passing IoT data to Entity dataset](examples/Script_for_passing_IoT_data_to_Entity)<br>
+	Collect data in questionnaire format host by Data Foundry, all you need to know is how to put your questions in Markdown language.
+
+<br>
 
 ## **Other appliences**
 
