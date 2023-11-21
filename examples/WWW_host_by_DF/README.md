@@ -25,8 +25,8 @@ In this case, I simply host web pages with a Complete dataset of Data Foundry.
         - Second, check the content of the web site.
         ![](images/ds-after-uploading-after.png)
     - For hosting the project web page,
-        - The link of the project web page will show up right next to the project name with smaller green text of "PROJECT WEBSITE"
-        ![](images/project_page_with_text.JPG)
+        - The button for the project web page will show up right next to the "TIMELINE" button on the navigation bar with a button named "PROJECT SITE"
+        ![](images/URL_of_project_home_page.png)
 5. The web site would be like this after clicking the "JavaScript test!!" button.
 ![](images/webpage-2.png)
 
