@@ -1,6 +1,6 @@
 ## Description
 
-Generally, it's not possible to directly add or update data for Entity datasets through IoT device and OOCSI, but it can be achieved through Script dataset and OOCSI. 
+Generally, it's not possible to directly add or update data of Entity datasets through IoT device and OOCSI, but it can be achieved through Script dataset and OOCSI. 
 <br /><br />
 Here I will explain how to do this.
 
