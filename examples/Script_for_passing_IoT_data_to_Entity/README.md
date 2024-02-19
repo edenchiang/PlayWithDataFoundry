@@ -20,7 +20,7 @@ Here I will explain how to do this.
 
 ####  IoT dataset and IoT device
 
-* Do the same setting for IoT dataset and IoT device (e.g. ESP32) from another [example](https://github.com/edenchiang/PlayWithDataFoundry/tree/master/examples/ESP_with_OOCSI)
+* Do the same setting for IoT dataset and IoT device (e.g. ESP32) from another [practice](https://github.com/edenchiang/PlayWithDataFoundry/tree/master/examples/ESP_with_OOCSI)
 
 #### Entity dataset
 
