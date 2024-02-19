@@ -18,7 +18,7 @@ const char* ssid = "WIFI_SSID";
 const char* password = "WIFI_PASSWORD";
 
 // name for connecting with OOCSI (unique handle)
-const char* OOCSIName = "UNIQUE_HANDLER_NAME";
+const char* OOCSIName = "UNIQUE_HANDLER_NAME_with_####";
 // put the adress of your OOCSI server here, can be URL or IP address string
 const char* hostserver = "URL_or_IP_Address_string";
 // channel for IoT dataset of the Data Foundry for downloading data
