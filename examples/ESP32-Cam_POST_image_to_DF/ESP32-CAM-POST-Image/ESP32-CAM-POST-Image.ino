@@ -1,5 +1,5 @@
 /*
-  Reference:
+  Copyright:
     Rui Santos
     Complete project details at:
     https://RandomNerdTutorials.com/esp32-cam-http-post-php-arduino/
@@ -10,6 +10,8 @@
     
     The above copyright notice and this permission notice shall be included in all
     copies or substantial portions of the Software.
+  
+  Modified by: I-Tang (Eden) Chiang, on Apr. 25th, 2024
 */
 
 #include <Arduino.h>
