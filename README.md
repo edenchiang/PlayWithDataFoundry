@@ -107,7 +107,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### Collect photo taken by ESP32-Cam via POST request through Data Foundry API
 
-* [ESP32-Cam POST photo to Data Foundry via Data Foundry API](examples/ESP32-Cam_POST_image_toDF)
+* [ESP32-Cam POST photo to Data Foundry via Data Foundry API](examples/ESP32-Cam_POST_image_to_DF)
   * To take a photo with ESP32-Cam and send it to Data Foundry with POST request via Data Foundry API as some specific input is coming from serial monitor
   * #ESP32-Cam, #Media_Dataset, #POST_request, #HTTPS_protocol, #photo
 
