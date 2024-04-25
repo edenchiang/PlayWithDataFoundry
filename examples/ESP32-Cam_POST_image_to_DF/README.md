@@ -1,6 +1,6 @@
 ## Description
 
-This example shows how to upload photo taken with ESP32-CAM via POST request and HTTPS protocol as "photo" is input by user through serial monitor.
+This practice shows how to upload photo taken with ESP32-CAM via POST request as the "photo" string is input by user through serial monitor.
 
 <br>
 
