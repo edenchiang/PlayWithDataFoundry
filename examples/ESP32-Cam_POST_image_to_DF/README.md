@@ -55,7 +55,7 @@ This practice shows how to upload photo taken with ESP32-CAM via POST request as
 
 ## FAQ
 
-* Q. What is the whole uploading process? \
+* Q. What is the whole process to upload with USB-to-UART module? \
     A. The process is : \
         -> On ESP32-Cam, connect IO0 to GND \
         -> Press RESET button of ESP32-Cam \
