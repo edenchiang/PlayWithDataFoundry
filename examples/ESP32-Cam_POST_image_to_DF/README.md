@@ -68,8 +68,6 @@ This practice shows how to upload photo taken with ESP32-CAM via POST request as
 * Q. Why does my photos look like to be taken with green filter or something else? \
     A. The camera will take some time to warm up, you can check after 5 to 10 minutes (the time is various), I think the filter will be gone.
 
-* Q. Why is the 
-
 ## Source
 
 All screenshot(s) are sourced from [Data Foundry](https://data.id.tue.nl/)
