@@ -60,7 +60,7 @@ This practice shows how to upload photo taken with ESP32-CAM via POST request as
         -> On ESP32-Cam, connect IO0 to GND \
         -> Press RESET button of ESP32-Cam \
         -> Press Upload button on Arduino IDE \
-        -> The uploading might take some time, which depends on the Wi-Fi signal and the loading of Data Foundry at the moment, but usually it should be finished in seconds
+        -> The uploading might take some time, which depends on the Wi-Fi signal and the loading of Data Foundry at the moment, but usually it should be finished in seconds \
         -> As uploading is finished, disconnect IO0 and GND on ESP32-Cam \
         -> Press RESET button of ESP32-Cam \
         -> Done! Check serial monitor if you expect something to show up
