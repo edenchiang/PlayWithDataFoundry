@@ -72,7 +72,6 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 
 ### **Telegram bot of Data Foundry**
-
 * [Collect data from participants in **questionnaire structured conversation** with Telegram bot of Data Foundry](examples/Collect_questionnaire_data_with_DF_bot/)
   - Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
   - *#Script_Dataset, #Telegram_bot, #OOCSI*
@@ -81,6 +80,12 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 * [Script for passing IoT data to Entity dataset](examples/Script_for_passing_IoT_data_to_Entity)
 	- Access data in Entity dataset by operating data from OOCSI with script.
 	- *#Entity_Dataset, #OOCSI, #IoT_device*
+
+### **Save data into Data Foundry in Max**
+* [Save data from Max](examples/Save_from_MAX/)
+	- To save data from Max with XMLHttpRequest in JavaScript
+	- *#IoT_dataset, #JavaScript*
+
 
 <br />
 
@@ -105,7 +110,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 * [Sync Apple Health data with Google Fit](examples/Apple_to_GoogleFit/)
 	- Showing the process to sync Apple Health data with Google Fit app (or other compatible apps).
-	- *#GoogleFit, #Fitbit*
+	- *#GoogleFit, #Fitbit, #iOS*
 
 
 ### **Check data passed through OOCSI channel**
