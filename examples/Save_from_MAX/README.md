@@ -90,4 +90,4 @@ A. Double click the **"js_xhr_example.js"** object on the diagram as the **lock*
 
 ## Source
 
-All screenshots are sourced from [Data Foundry](https://data.id.tue.nl/)
+All screenshots are sourced from [Data Foundry](https://data.id.tue.nl/) and [Max](https://cycling74.com/products/max)
