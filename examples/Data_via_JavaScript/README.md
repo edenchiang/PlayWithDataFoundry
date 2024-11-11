@@ -38,14 +38,14 @@ In the dataset, the OOCSI channel for receiving data also needs setting <br />
 
 Required replacements in code:
 
-- DOMAIN_SERVER: OOCSI server IP or DNS
-- CHANNEL_NAME: OOCSI channel name to pass data through <br />
-- DEVICE_REFERENCE_ID: Reference Id of a device in the same project
+* DOMAIN_SERVER: OOCSI server IP or DNS
+* CHANNEL_NAME: OOCSI channel name to pass data through <br />
+* DEVICE_REFERENCE_ID: Reference Id of a device in the same project
 
 Optional:
 
-- "text_input1": MAYBE_A_VARIABLE
-- "text_input2": MAYBE_A_VALUE
+* "text_input1": MAYBE_A_VARIABLE
+* "text_input2": MAYBE_A_VALUE
 
 ```js
 // way to send data with OOCSI library included
@@ -71,16 +71,15 @@ Also, the dataset has to forward the incoming data to the subscribed channel, wh
 
 ![forwarding incoming data to other OOCSI channel](images/OOCSI-download.JPG)
 
-
 Required replacements in code:
 
-- data object: just change by requirements
-- DEVICE_ID: ReferenceId of device in the same Data Foundry project
-- URL_WITH_TOKEN: <br />Full URL for sending data with HTTP token, which can be found in **JavaScript** block of "How to use this?" section located at the bottom of the dataset page as the token is activated
+* data object: just change by requirements
+* DEVICE_ID: ReferenceId of device in the same Data Foundry project
+* URL_WITH_TOKEN: <br />Full URL for sending data with HTTP token, which can be found in **JavaScript** block of "How to use this?" section located at the bottom of the dataset page as the token is activated
 
 Optional:
 
-- ACTIVITY: Can be removed or updated according to requirement
+* ACTIVITY: Can be removed or updated according to requirement
 
 ```js
 function sendOOCSI_fetch() {
