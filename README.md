@@ -24,14 +24,15 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 * [ESP32 with OOCSI](examples/ESP_with_OOCSI)
   * Get light data for the environment and send to the Data Foundry via OOCSI upload stream with ESP32, ESP8266, or Arduino Nano 33 IoT, and observing the data with received information from download OOCSI stream
   * References: [Use-case: Smart Things](https://data.id.tue.nl/documentation/usecase-smart-things)
-    * *#ESP32, #ESP8266, #Arduino_Nano_33_IoT, #Arduino_Uno_R4_WiFi, #OOCSI*
+  * *#ESP32, #ESP8266, #Arduino_Nano_33_IoT, #Arduino_Uno_R4_WiFi, #OOCSI*
 
 * [ESP32-Cam POST photo to Data Foundry via Data Foundry API](examples/ESP32-Cam_POST_image_to_DF)
   * To take a photo with ESP32-Cam and send it to Data Foundry with POST request via Data Foundry API as some specific input is coming from serial monitor
-  * #ESP32-Cam, #Media_Dataset, #POST_request, #HTTPS_protocol, #photo
+  * *#ESP32-Cam, #Media_Dataset, #POST_request, #HTTPS_protocol, #photo*
 
 * [Check data via JavaScript with ESP32](examples/Data_via_JavaScript/)
   * Monitoring data passing through some specific OOCSI channels with an ESP32. The data is sent to OOCSI directly or forwarded by Data Foundry as it's fetched via HTTP POST request.
+  * *#JavaScript, #ESP32, #HTTP, #POST, #OOCSI*
 
 ### **ESP32 in MicroPython**
 
