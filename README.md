@@ -31,8 +31,8 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
   * *#ESP32-Cam, #Media_Dataset, #POST_request, #HTTPS_protocol, #photo*
 
 * [Check data via JavaScript with ESP32](examples/Data_via_JavaScript/)
-  * Monitoring data passing through some specific OOCSI channels with an ESP32. The data is sent to OOCSI directly or forwarded by Data Foundry as it's fetched via HTTP POST request.
-  * *#JavaScript, #ESP32, #HTTP, #POST, #OOCSI*
+  * Monitoring data passing in JavaScript through some specific OOCSI channels with an ESP32. The data in OOCSI channel can be sent under p5Js framework with OOCSI JavaScript library or via HTTP POST request.
+  * *#JavaScript, #ESP32, #HTTP, #POST, #OOCSI, #p5Js*
 
 ### **ESP32 in MicroPython**
 
