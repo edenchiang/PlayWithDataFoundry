@@ -1,6 +1,6 @@
-# This repository is a note for -
+# This repository is a note for collecting and storing data on Data Foundry platform
 
-Implementation for some use-cases of the Data Foundry and some other ways for collecting data with the Data Foundry
+Implementation for some use-cases of the Data Foundry and some other ways for collecting / storing data with the Data Foundry via OOCSI service.
 
 <br />
 
@@ -34,10 +34,10 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
   * Monitoring data passing in JavaScript through some specific OOCSI channels with an ESP32. The data in OOCSI channel can be sent under p5Js framework with OOCSI JavaScript library or via HTTP POST request.
   * *#JavaScript, #ESP32, #HTTP, #POST, #OOCSI, #p5Js*
 
-### **ESP32 in MicroPython**
+### **ESP32(s) in MicroPython**
 
 * [ESP32 in MicroPython](examples/ESP32_to_Pyboard)
-  * How to act ESP32 / ESP8266 as a pyboard in MicroPython with OOCSI or Data Foundry?
+  * How to act ESP32 / ESP8266 as a pyboard in MicroPython with OOCSI or Data Foundry? <br /> There are also other options to choose to turn into a pyboard, [check here](https://micropython.org/download/).
   * *#ESP32, #ESP8266, #Micro_Python, #OOCSI*
 
 <br />
@@ -79,15 +79,15 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
   * Researchers can easily collect data from participants with [Data Foundry Telegram bot](https://t.me/datafoundrybot)
   * *#Script_Dataset, #Telegram_bot, #OOCSI*
 
-### **Access data in Entity dataset with Script and IoT dataset**
+### **Access data in Entity dataset with cooperating of Script and IoT datasets**
 
 * [Script for passing IoT data to Entity dataset](examples/Script_for_passing_IoT_data_to_Entity)
   * Access data in Entity dataset by operating data from OOCSI with script.
-  * *#Entity_Dataset, #OOCSI, #IoT_device*
+  * *#Entity_Dataset, #OOCSI, #IoT_device, #script_Dataset*
 
 ### **Save data into Data Foundry in Max**
 
-* [Save data from Max](examples/Save_from_MAX/)
+* [Save data from MaxMSP](examples/Save_from_MAX/)
   * To save data from Max with XMLHttpRequest in JavaScript
   * *#IoT_dataset, #JavaScript*
 
@@ -95,9 +95,9 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ## **Other appliences**
 
-### **Telegram bot with Arduino**
+### **Talk to Telegram bot of Data Foundry with Arduinos**
 
-* [Arduino with Telegram](examples/Arduino_with_Telegram)
+* [Arduino with Telegram Bot of Data Foundry](examples/Arduino_with_Telegram)
   * To receive Telegram messages from the Arduino boards with Wi-Fi connection through a Telegram bot
   * *#IoT, #Telegram_bot*
 
@@ -116,7 +116,7 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 
 ### **Check data passed through OOCSI channel**
 
-* [Check incoming data of OOCSI channel](examples/Check_incoming_data_of_OOCSI/)
+* [Check incoming data of OOCSI channel via its online tools](examples/Check_incoming_data_of_OOCSI/)
   * #OOCSI
 
 <br />
