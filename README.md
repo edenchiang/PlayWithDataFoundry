@@ -117,6 +117,11 @@ Implementation for some use-cases of the Data Foundry and some other ways for co
 ### **Check data passed through OOCSI channel**
 
 * [Check incoming data of OOCSI channel via its online tools](examples/Check_incoming_data_of_OOCSI/)
-  * #OOCSI
+  * *#OOCSI*
+
+### **How to turn an Arduino Nano ESP32 into a pyboard of CircuitPython?**
+
+* [Turn an Arduino Nano ESP32 into a pyboard of CircuitPython](examples/Nano-ESP32_in_CircuitPython/)
+  * *#CircuitPython, #ESP32, #Arduino*
 
 <br />
