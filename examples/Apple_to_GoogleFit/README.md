@@ -1,12 +1,18 @@
+# This method is not working anymore since the GoogleFit has been deprecated in the middle off 2025!
+
+<br />
+
 ### Description
-***
+
+---
 
 This example shows how Apple Watch and iPhone users share / synchronize Apple Health data with Google Fit app or other apps.
 
 <br>
 
 ### Preparation
-***
+
+---
 
 Download the apps which the Apple Health app is going to share the data with, in this example, it's Google Fit.
 
@@ -15,7 +21,8 @@ Download the apps which the Apple Health app is going to share the data with, in
 <br>
 
 ### Steps
-***
+
+---
 
 1. Open the Health app in iPhone.
 
