@@ -1,13 +1,13 @@
 ### Description
 
-In this case, I shows how to simply host web pages with an Existing dataset of Data Foundry.
+In this case, it shows how to simply host web pages with an Existing dataset of Data Foundry.
 
 
 ### Reminds
 
 1. If you'd like to upload new files, please make sure the dataset is ***active***.
 
-2. If the files needs some updates, the uploaded(old) files have to be deleted first, then upload the updated(new) files, otherwise the new files will be dropped out instead of replacing the old ones.
+2. If a file is uploaded with a name existed already, the new file will replace the old one!! So, it might be better to backup before making huge updates.
 
 3. All the files would be placed in the same level, no folders would be created or uploaded.
 
@@ -34,5 +34,7 @@ In this case, I shows how to simply host web pages with an Existing dataset of D
 <br />
 
 ## Source
+
+[Official tutorial](https://data-foundry.net/Tutorials/GettingStarted/MyFirstDataFoundryWebsite.html)
 
 All screenshot(s) are sourced from [Data Foundry](https://data.id.tue.nl/)
