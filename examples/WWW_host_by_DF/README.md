@@ -1,6 +1,6 @@
 ### Description
 
-In this case, I simply host web pages with a Complete dataset of Data Foundry.
+In this case, I shows how to simply host web pages with an Existing dataset of Data Foundry.
 
 
 ### Reminds
