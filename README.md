@@ -1,4 +1,4 @@
-# This repository is a note for collecting and storing data on Data Foundry platform
+# This repository is for some notes about collecting and storing data on Data Foundry platform
 
 Implementation for some use-cases of the Data Foundry and some other ways for collecting / storing data with the Data Foundry via OOCSI service.
 
